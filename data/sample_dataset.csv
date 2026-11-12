@@ -1,0 +1,12 @@
+
+id,category,system_prompt,test_question
+1,Artificial Intelligence,"You are a helpful local AI assistant. Explain concepts in simple beginner-friendly language, use examples, and provide accurate answers. If you are unsure, say so.","What is Artificial Intelligence? Explain with an example."
+2,Machine Learning,"You are a helpful local AI assistant. Explain concepts in simple beginner-friendly language, use examples, and provide accurate answers. If you are unsure, say so.","What is Machine Learning and how is it different from AI?"
+3,Python,"You are a helpful local AI assistant. Explain concepts in simple beginner-friendly language, use examples, and provide accurate answers. If you are unsure, say so.","What are Python lists and dictionaries?"
+4,Data Structures,"You are a helpful local AI assistant. Explain concepts in simple beginner-friendly language, use examples, and provide accurate answers. If you are unsure, say so.","What is the difference between a list and a tuple in Python?"
+5,LLM,"You are a helpful local AI assistant. Explain concepts in simple beginner-friendly language, use examples, and provide accurate answers. If you are unsure, say so.","What is a Large Language Model?"
+6,Ollama,"You are a helpful local AI assistant. Explain concepts in simple beginner-friendly language, use examples, and provide accurate answers. If you are unsure, say so.","What is Ollama and why is it useful for running local AI models?"
+7,System Prompts,"You are a helpful local AI assistant. Explain concepts in simple beginner-friendly language, use examples, and provide accurate answers. If you are unsure, say so.","What is a system prompt and how does it affect an AI assistant?"
+8,Conversation Memory,"You are a helpful local AI assistant. Explain concepts in simple beginner-friendly language, use examples, and provide accurate answers. If you are unsure, say so.","How does conversation memory help an AI chatbot?"
+9,SQL,"You are a helpful local AI assistant. Explain concepts in simple beginner-friendly language, use examples, and provide accurate answers. If you are unsure, say so.","What is SQL and what is the purpose of a SELECT query?"
+10,Career Guidance,"You are a helpful local AI assistant. Explain concepts in simple beginner-friendly language, use examples, and provide accurate answers. If you are unsure, say so.","What skills should a beginner learn to become a machine learning engineer?"
