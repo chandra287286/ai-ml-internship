@@ -349,3 +349,107 @@ Conversational context allows the assistant to use previous messages when answer
 | Tool Calling | Pending |
 | CIA Integration | Pending |
 | Final Testing and Documentation | Pending |
+# Week 1 – Day 4: Dataset Loading and Exploration
+
+## 1. Objective
+
+Load a custom CSV dataset into the AI assistant project and explore its structure using Python and pandas.
+
+## 2. Dataset Information
+
+**Dataset File:** `data/sample_dataset.csv`
+
+**Dataset Description:**
+
+The dataset contains 10 test questions and a custom system prompt designed to evaluate the local AI assistant.
+
+### Dataset Columns
+
+| Column Name | Description |
+|---|---|
+| `id` | Unique question identifier |
+| `category` | Topic or category of the question |
+| `system_prompt` | Custom instructions defining the AI assistant's behavior |
+| `test_question` | Question used to test the AI assistant |
+
+## 3. Dataset Loading
+
+The pandas library is used to load and explore the CSV dataset.
+
+**Python File:** `data/load_dataset.py`
+
+### Implementation
+
+```python
+import pandas as pd
+
+# Load the CSV dataset
+df = pd.read_csv("data/sample_dataset.csv")
+
+# Display dataset dimensions
+print("Number of rows:", df.shape[0])
+print("Number of columns:", df.shape[1])
+
+# Display column data types
+print("\nData Types:")
+print(df.dtypes)
+
+# Display first five records
+print("\nFirst 5 Rows:")
+print(df.head())
+
+# Check missing values
+print("\nMissing Values:")
+print(df.isnull().sum())
+```
+
+## 4. Dataset Exploration Results
+
+| Dataset Information | Result |
+|---|---|
+| Total Rows | 10 |
+| Total Columns | 4 |
+| File Format | CSV |
+| Data Loading Library | pandas |
+| Preview Records | First 5 Rows |
+| Missing Values | 0 (expected) |
+
+### Column Data Types
+
+| Column Name | Data Type |
+|---|---|
+| `id` | int64 |
+| `category` | object |
+| `system_prompt` | object |
+| `test_question` | object |
+
+## 5. Day 4 Execution Proof
+
+The dataset was loaded successfully using pandas and explored through the Python terminal.
+
+**Screenshot:** `day4-proof.png`
+
+![Day 4 Dataset Loading Proof](day4-proof.png)
+
+## 6. Learning Outcomes
+
+- Created a custom CSV dataset containing 10 test questions.
+- Added a custom system prompt for the AI assistant.
+- Learned to load CSV files using pandas.
+- Explored dataset dimensions using `shape`.
+- Identified column names and data types using `dtypes`.
+- Displayed the first five records using `head()`.
+- Checked missing values using `isnull().sum()`.
+
+## 7. Day 4 Deliverables
+
+| Deliverable | File | Status |
+|---|---|---|
+| Custom test dataset | `data/sample_dataset.csv` | Completed |
+| Dataset loading script | `data/load_dataset.py` | Completed |
+| Execution screenshot | `day4-proof.png` | Completed |
+| README documentation | `README.md` | Completed |
+
+---
+
+:::
