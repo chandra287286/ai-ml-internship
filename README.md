@@ -453,3 +453,37 @@ The dataset was loaded successfully using pandas and explored through the Python
 ---
 
 :::
+
+## Week 1 – Day 5: Final Project Test and Results
+
+### Project Summary
+
+This project is a local AI assistant built using Python, Ollama, and the Llama 3.2 language model. It uses a custom CSV dataset containing 10 test questions across different categories, along with system prompts to guide the assistant's responses. The assistant successfully answered 3 test questions, and the generated responses were saved in `results/week1_results.csv`.
+
+### Test Results
+
+- Dataset records: 10
+- Questions tested: 3
+- Successful AI responses: 3
+- Output format: CSV
+- Model used: Llama 3.2
+- Execution status: Successful
+
+### Output File
+
+`results/week1_results.csv`
+
+### Mentor Review – Observations
+
+- The assistant generated relevant and understandable answers.
+- Responses included useful examples and explanations.
+- Minor factual simplifications were observed, such as describing Python dictionaries as unordered.
+- Future improvement: test all 10 questions and improve response accuracy and consistency.
+
+### Learning Outcomes
+
+- Loaded and processed a CSV dataset using Pandas.
+- Connected a Python application to a locally running LLM through Ollama.
+- Used dataset-based system prompts.
+- Tested AI responses and saved the results in a CSV file.
+:::
