@@ -1,0 +1,24 @@
+
+from pathlib import Path
+import joblib
+
+# Find project root
+PROJECT_ROOT = Path.cwd()
+
+if PROJECT_ROOT.name == "notebooks":
+    PROJECT_ROOT = PROJECT_ROOT.parent
+
+# Check scaler exists in memory
+assert "scaler" in globals(), "Run the StandardScaler cell first!"
+
+# Create models folder
+models_dir = PROJECT_ROOT / "models"
+models_dir.mkdir(parents=True, exist_ok=True)
+
+# Save scaler
+scaler_path = models_dir / "scaler.pkl"
+joblib.dump(scaler, scaler_path)
+
+print("Scaler saved successfully!")
+print("Location:", scaler_path)
+print("File exists:", scaler_path.exists())
