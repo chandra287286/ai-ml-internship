@@ -1,0 +1,41 @@
+actual,predicted,correct
+Career Guidance,Career Guidance,True
+Conversation Memory,Conversation Memory,True
+Machine Learning,Machine Learning,True
+Ollama,Ollama,True
+Career Guidance,Career Guidance,True
+System Prompts,System Prompts,True
+Data Structures,Data Structures,True
+SQL,SQL,True
+Python,Python,True
+LLM,LLM,True
+Ollama,Ollama,True
+SQL,SQL,True
+Data Structures,Data Structures,True
+LLM,LLM,True
+Artificial Intelligence,Artificial Intelligence,True
+Python,Python,True
+System Prompts,System Prompts,True
+Data Structures,Data Structures,True
+LLM,LLM,True
+System Prompts,System Prompts,True
+System Prompts,System Prompts,True
+Career Guidance,Career Guidance,True
+Data Structures,Data Structures,True
+SQL,SQL,True
+Conversation Memory,Conversation Memory,True
+Conversation Memory,Conversation Memory,True
+Artificial Intelligence,Artificial Intelligence,True
+Career Guidance,Career Guidance,True
+LLM,LLM,True
+Ollama,Ollama,True
+SQL,SQL,True
+Conversation Memory,Conversation Memory,True
+Ollama,Ollama,True
+Artificial Intelligence,Artificial Intelligence,True
+Machine Learning,Machine Learning,True
+Machine Learning,Machine Learning,True
+Python,Python,True
+Machine Learning,Machine Learning,True
+Artificial Intelligence,Artificial Intelligence,True
+Python,Python,True

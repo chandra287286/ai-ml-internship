@@ -1,2 +1,3 @@
 model_name,metric_name,score,date
 LogisticRegression_TFIDF,accuracy,1.0,2026-11-23
+RandomForest_TFIDF,accuracy,1.0,2026-11-24
