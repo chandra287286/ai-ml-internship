@@ -1,0 +1,19 @@
+DECISION TREE CLASSIFICATION RULES
+Maximum depth: 5
+
+|--- text__structures <= 0.06
+|   |--- text__skills <= 0.06
+|   |   |--- text__generation <= 0.06
+|   |   |   |--- text__from training <= 0.06
+|   |   |   |   |--- text__systems that <= 0.06
+|   |   |   |   |   |--- class: Conversation Memory
+|   |   |   |   |--- text__systems that >  0.06
+|   |   |   |   |   |--- class: Artificial Intelligence
+|   |   |   |--- text__from training >  0.06
+|   |   |   |   |--- class: Machine Learning
+|   |   |--- text__generation >  0.06
+|   |   |   |--- class: LLM
+|   |--- text__skills >  0.06
+|   |   |--- class: Career Guidance
+|--- text__structures >  0.06
+|   |--- class: Data Structures
